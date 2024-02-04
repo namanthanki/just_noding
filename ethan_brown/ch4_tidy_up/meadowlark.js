@@ -7,6 +7,14 @@ const app = express();
 const port = 3000 || 5000 || 8080;
 const hostname = "127.0.0.1";
 
+const fortunes = [
+    "Conquer your fears or they will conquer you.",
+    "Rivers need springs.",
+    "Do not fear what you don't know.",
+    "You will have a pleasant surprise.",
+    "Whenever possible, keep it simple.",
+]
+
 const hbs = create({
     defaultLayout: "main"
 });
